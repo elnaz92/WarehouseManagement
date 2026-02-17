@@ -1,4 +1,91 @@
-.gradle
-.idea
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local configuration
 local.properties
+*.iml
+.idea/
+.idea/*
+
+# IntelliJ
+*.iws
+out/
+
+# Android Studio
+captures/
+.externalNativeBuild
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Icon?
+Icon
+
+# Icon\r
+Icon?
+
+# JetBrains
+*.log
+tasks.xml
+usage.statistics.xml
+workspace.xml
+
+# NDK
+obj/
+.cxx/
+
+# Gradle Wrapper
+gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Misc
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Proguard
+proguard/
+*.jar
+*.war
+*.ear
+
+# Keystore
+*.jks
+*.keystore
+
+# Crashlytics / Fabric
+crashlytics.properties
+fabric.properties
+crashlytics-build.properties
+
+# Google Services
+google-services.json
+
+# Android Auto Generated
+captures/
+.externalNativeBuild/
+
+# Kotlin
+*.kotlin_module
+
+# CMake
+CMakeLists.txt.user
+build/
+
+# Local adb keys
+adbkey
+adbkey.pub
+
+# Jetpack Compose
+composeCompilerMetricsReport/
+composeCompilerMetrics/
+composeMetrics/
+composeReports/
