@@ -89,3 +89,5 @@ composeCompilerMetricsReport/
 composeCompilerMetrics/
 composeMetrics/
 composeReports/
+
+gradle_local_cache/
