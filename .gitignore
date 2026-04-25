@@ -1,93 +1,105 @@
+# =========================
 # Gradle
+# =========================
 .gradle/
-build/
 **/build/
 
+# =========================
 # Local configuration
+# =========================
 local.properties
 *.iml
-.idea/
-.idea/*
 
-# IntelliJ
+# =========================
+# IDE (Android Studio / IntelliJ)
+# =========================
+.idea/
 *.iws
 out/
-
-# Android Studio
 captures/
-.externalNativeBuild
 
-# macOS
+# =========================
+# OS Files (macOS)
+# =========================
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Thumbnails
 ._*
-
-# Icon?
-Icon
-
-# Icon\r
 Icon?
 
-# JetBrains
+# =========================
+# Logs
+# =========================
 *.log
-tasks.xml
-usage.statistics.xml
-workspace.xml
 
-# NDK
-obj/
+# =========================
+# NDK / C++
+# =========================
+.externalNativeBuild/
 .cxx/
+obj/
 
-# Gradle Wrapper
-gradle-wrapper.jar
-!gradle/wrapper/gradle-wrapper.jar
-
-# Misc
+# =========================
+# Build Outputs
+# =========================
 *.apk
 *.ap_
+*.aab
 *.dex
 *.class
 
-# Proguard
+# =========================
+# Proguard / R8
+# =========================
 proguard/
-*.jar
-*.war
-*.ear
+mapping.txt
 
-# Keystore
+# =========================
+# Keystore (IMPORTANT)
+# =========================
 *.jks
 *.keystore
+*.keystore.properties
 
-# Crashlytics / Fabric
+# =========================
+# Crashlytics / Firebase
+# =========================
 crashlytics.properties
 fabric.properties
 crashlytics-build.properties
 
-# Google Services
+# =========================
+# Google Services (OPTIONAL)
+# =========================
+# اگر پروژه open source نیست میتونی نگه داری
 google-services.json
 
-# Android Auto Generated
-captures/
-.externalNativeBuild/
-
+# =========================
 # Kotlin
+# =========================
 *.kotlin_module
 
+# =========================
 # CMake
+# =========================
 CMakeLists.txt.user
-build/
 
-# Local adb keys
+# =========================
+# ADB Keys
+# =========================
 adbkey
 adbkey.pub
 
-# Jetpack Compose
+# =========================
+# Jetpack Compose reports
+# =========================
 composeCompilerMetricsReport/
 composeCompilerMetrics/
 composeMetrics/
 composeReports/
 
-gradle_local_cache/
+# =========================
+# Custom / Temporary
+# =========================
+*.salive
+.salive/
